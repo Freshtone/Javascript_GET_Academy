@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:    'header header' 
+                            'menu main' 
+                            'footer';
+}
+.footer {
+    background-color: gray;
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    height: 30px;
+    line-height: 1.5;
+    grid-area: footer;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+    height: 40px;
+    grid-area: header;
+}
